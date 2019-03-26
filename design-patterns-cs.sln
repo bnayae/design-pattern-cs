@@ -35,17 +35,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Structural", "2. Structu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModuleRegistration", "ModuleRegistration", "{5A140E22-BACD-4F3D-8A79-EEB736256A0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IocHosting", "Creational\ModuleRegistration\IocHosting\IocHosting.csproj", "{880C5EE3-5DE1-484A-A8E2-D9BFD0345966}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IocHosting", "Creational\ModuleRegistration\IocHosting\IocHosting.csproj", "{880C5EE3-5DE1-484A-A8E2-D9BFD0345966}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleLoggerImp", "Creational\ModuleRegistration\ConsoleLoggerImp\ConsoleLoggerImp.csproj", "{4301D83F-C2AA-479A-90D3-AC5C96EE54AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleLoggerImp", "Creational\ModuleRegistration\ConsoleLoggerImp\ConsoleLoggerImp.csproj", "{4301D83F-C2AA-479A-90D3-AC5C96EE54AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Creational\ModuleRegistration\Contracts\Contracts.csproj", "{CE258161-441E-4938-B27E-E0994221AE81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "Creational\ModuleRegistration\Contracts\Contracts.csproj", "{CE258161-441E-4938-B27E-E0994221AE81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerImp", "Creational\ModuleRegistration\LoggerImp\LoggerImp.csproj", "{7BFD78AB-F5F1-4833-8245-D15143079CEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerImp", "Creational\ModuleRegistration\LoggerImp\LoggerImp.csproj", "{7BFD78AB-F5F1-4833-8245-D15143079CEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC Reduce Parameters", "Creational\IoC Reduce Parameters\IoC Reduce Parameters.csproj", "{F2A3D1FE-FDED-466F-9E75-536722AB2A8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC Reduce Parameters", "Creational\IoC Reduce Parameters\IoC Reduce Parameters.csproj", "{F2A3D1FE-FDED-466F-9E75-536722AB2A8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC Locator", "Creational\IoC Locator\IoC Locator.csproj", "{5821A67C-4776-4747-8333-F13ECAE6FFCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC Locator", "Creational\IoC Locator\IoC Locator.csproj", "{5821A67C-4776-4747-8333-F13ECAE6FFCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC Decoration", "Structural\IoC Decoration\IoC Decoration.csproj", "{6AEAA316-6455-48E3-BC07-BE0930D49E1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +123,10 @@ Global
 		{5821A67C-4776-4747-8333-F13ECAE6FFCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5821A67C-4776-4747-8333-F13ECAE6FFCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5821A67C-4776-4747-8333-F13ECAE6FFCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AEAA316-6455-48E3-BC07-BE0930D49E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AEAA316-6455-48E3-BC07-BE0930D49E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AEAA316-6455-48E3-BC07-BE0930D49E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AEAA316-6455-48E3-BC07-BE0930D49E1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -144,6 +150,7 @@ Global
 		{7BFD78AB-F5F1-4833-8245-D15143079CEC} = {5A140E22-BACD-4F3D-8A79-EEB736256A0A}
 		{F2A3D1FE-FDED-466F-9E75-536722AB2A8E} = {1E11668A-B96C-46C4-B5A4-5E6A09B2D95D}
 		{5821A67C-4776-4747-8333-F13ECAE6FFCD} = {1E11668A-B96C-46C4-B5A4-5E6A09B2D95D}
+		{6AEAA316-6455-48E3-BC07-BE0930D49E1A} = {0726A3BC-365E-4745-A6A7-A7B84B7288BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9573CE47-B7B9-44D9-982A-49D8C61BD0ED}

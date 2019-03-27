@@ -2,7 +2,7 @@
 {
     public interface IShapeTreeBuilder
     {
-        IShapeTreeBuilder AddChild(string key);
-        IShapeTreeBuilder AddNext(string key);
+        IShapeTreeBuilder AddChild(Keys key);
+        IShapeTreeBuilder AddNext(Keys key);
     }
 }

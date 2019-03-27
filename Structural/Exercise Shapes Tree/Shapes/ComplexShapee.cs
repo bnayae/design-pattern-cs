@@ -4,11 +4,11 @@ using System.Text;
 
 namespace Exercise_Shapes_Tree.Shapes.Lines
 {
-    public abstract class Face : IShape
+    public abstract class ComplexShape : IShape
     {
         private readonly (IShape Shape, int ShiftX, int ShiftY)[] _data; // flyweight (don't create line per draw)
 
-        public Face(
+        public ComplexShape(
             params (IShape Shape, int ShiftX, int ShiftY)[] data)
         {
             _data = data;

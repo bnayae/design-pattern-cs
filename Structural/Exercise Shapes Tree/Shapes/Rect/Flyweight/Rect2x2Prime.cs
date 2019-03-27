@@ -7,10 +7,8 @@ namespace Exercise_Shapes_Tree.Shapes.Lines
 {
     public class Rect2x2Prime : Rect
     {
-        private readonly Line _data; // flyweight (don't create line per draw)
-
         public Rect2x2Prime(
-            [KeyFilter("L2Prime")]Line data)
+            [KeyFilter(Keys.Line2Prime)]Line data)
             : base(data)
         {
         }

@@ -5,12 +5,10 @@ using Autofac.Features.AttributeFilters;
 
 namespace Exercise_Shapes_Tree.Shapes.Lines
 {
-    public class Rect4x2Prime : Rect
+    public class Rect2x2Second : Rect
     {
-        private readonly Line _data; // flyweight (don't create line per draw)
-
-        public Rect4x2Prime(
-            [KeyFilter("L4Prime")]Line data)
+        public Rect2x2Second(
+            [KeyFilter(Keys.Line2Second)]Line data)
             : base(data)
         {
         }

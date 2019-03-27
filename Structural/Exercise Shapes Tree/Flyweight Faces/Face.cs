@@ -5,19 +5,19 @@ using Autofac.Features.AttributeFilters;
 
 namespace Exercise_Shapes_Tree.Shapes.Lines
 {
-    public class FaceA : Face
+    public class Face : ComplexShape
     {
 
-        public FaceA(
-            [KeyFilter("LeftEye")]IShape eye1,
-            [KeyFilter("RightEye")]IShape eye2,
-            [KeyFilter("Nose")]IShape nose,
-            [KeyFilter("Mouth")]IShape mouth)
+        public Face(
+            [KeyFilter(Keys.EyeOpened)]IShape eye1,
+            [KeyFilter(Keys.EyeOpened)]IShape eye2,
+            [KeyFilter(Keys.SlideNose)]IShape nose,
+            [KeyFilter(Keys.Mouth)]IShape mouth)
             : base (
                   (eye1, 1, 1),
                   (eye2, 7, 1),
                   (nose, 3, 5),
-                  (mouth, 2, 8))
+                  (mouth, 2, 9))
         {
         }
     }

@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Text;
 using Autofac;
 
-namespace IoC_Sample
+namespace Bnaya.Samples
 {
     public class TraceLogProvider : ILoggerProvider
     {

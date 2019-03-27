@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Text;
 using Autofac.Features.AttributeFilters;
 
-namespace Exercise_Shapes_Tree.Shapes.Lines
+namespace Bnaya.Samples
 {
     public class Rect2x2Prime : Rect
     {
         public Rect2x2Prime(
-            [KeyFilter(Keys.Line2Prime)]Line data)
+            [KeyFilter(Keys.Line2Prime)]IShape data)
             : base(data)
         {
         }

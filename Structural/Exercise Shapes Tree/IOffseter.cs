@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Exercise_Shapes_Tree
+namespace Bnaya.Samples
 {
     public interface IOffseter
     {

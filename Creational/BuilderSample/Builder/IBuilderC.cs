@@ -1,4 +1,4 @@
-﻿namespace BuilderSample
+﻿namespace Bnaya.Samples
 {
     public interface IBuilderC : IBuilder
     {

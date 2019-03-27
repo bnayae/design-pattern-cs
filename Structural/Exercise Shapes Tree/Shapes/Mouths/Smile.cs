@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Autofac.Features.AttributeFilters;
 
-namespace Exercise_Shapes_Tree.Shapes.Lines
+namespace Bnaya.Samples
 {
     public class Smile : IShape
     {

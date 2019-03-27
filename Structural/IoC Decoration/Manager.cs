@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace IoC_Decoration
+namespace Bnaya.Samples
 {
     public class Manager: IManager
     {

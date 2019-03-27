@@ -1,7 +1,7 @@
 ﻿using System;
 using Autofac;
 
-namespace IoC_Exercise
+namespace Bnaya.Samples
 {
     class Program
     {

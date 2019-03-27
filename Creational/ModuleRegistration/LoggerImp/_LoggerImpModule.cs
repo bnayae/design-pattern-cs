@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using Autofac;
-using IoC_Sample;
 
-namespace System
+namespace Bnaya.Samples
 {
     public class LoggerImpModule : Module
     {

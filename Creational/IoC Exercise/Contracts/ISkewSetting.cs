@@ -1,4 +1,4 @@
-﻿namespace IoC_Exercise
+﻿namespace Bnaya.Samples
 {
     public interface ISkewSetting
     {

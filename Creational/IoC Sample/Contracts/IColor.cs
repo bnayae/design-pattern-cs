@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace IoC_Sample
+namespace Bnaya.Samples
 {
     public interface IGreet
     {

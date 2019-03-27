@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Autofac.Features.AttributeFilters;
 
-namespace IoC_Sample
+namespace Bnaya.Samples
 {
     public class Logger : ILogger
     {

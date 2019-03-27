@@ -1,7 +1,6 @@
 ﻿using System;
-using BuilderSample;
 
-namespace BuilderSample
+namespace Bnaya.Samples
 {
     class Program
     {

@@ -1,36 +1,45 @@
 ﻿using Autofac.Features.Indexed;
 
-namespace Exercise_Shapes_Tree.Shapes.Lines
+namespace Bnaya.Samples
 {
-    public class ShapeTreeBuilder : IShapeTreeBuilder
+    public class ShapeTreeBuilder : IShapeTreeBuilder, IShapeBuilderFactory
     {
         private readonly IIndex<Keys, IShape> _mapper;
-        private readonly ShapeNode _data;
+        private readonly ShapeNextChildren _data;
 
         public ShapeTreeBuilder(IIndex<Keys, IShape> mapper)
         {
             _mapper = mapper;
-            _data = new ShapeNode();
+            _data = new ShapeNextChildren(Keys.Empty, NullShape.Default);
         }
-        private ShapeTreeBuilder(ShapeNode data, IIndex<Keys, IShape> mapper)
+        private ShapeTreeBuilder(ShapeNextChildren data, IIndex<Keys, IShape> mapper)
         {
             _mapper = mapper;
             _data = data;
         }
 
 
+        public IShapeTreeBuilder Create(Keys key)
+        {
+            IShape shape = _mapper[key];
+            ShapeNextChildren immutableNode = new ShapeNextChildren(key, shape);
+            return new ShapeTreeBuilder(immutableNode, _mapper);
+        }
         public IShapeTreeBuilder AddChild(Keys key)
         {
             IShape child = _mapper[key];
-            ShapeNode immutableNode = _data.AddChild(child);
+            ShapeNextChildren immutableNode = _data.AddChild(key, child);
             return new ShapeTreeBuilder(immutableNode, _mapper);
         }
 
         public IShapeTreeBuilder AddNext(Keys key)
         {
             IShape next = _mapper[key];
-            ShapeNode immutableNode = _data.SetNext(next);
+            ShapeNextChildren immutableNode = _data.SetNext(key, next);
             return new ShapeTreeBuilder(immutableNode, _mapper);
         }
+
+        public IShape Build() => _data;
+
     }
 }

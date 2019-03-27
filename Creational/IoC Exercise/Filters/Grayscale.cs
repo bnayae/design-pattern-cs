@@ -7,7 +7,7 @@ using SixLabors.ImageSharp.Processing.Processors;
 using SixLabors.Primitives;
 using SixLabors.ImageSharp.Processing;
 
-namespace IoC_Exercise
+namespace Bnaya.Samples
 {
     public class Grayscale : IEffect
     {

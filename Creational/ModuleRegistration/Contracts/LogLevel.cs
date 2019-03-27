@@ -1,4 +1,4 @@
-﻿namespace IoC_Sample
+﻿namespace Bnaya.Samples
 {
     public enum LogLevel
     {

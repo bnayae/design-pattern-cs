@@ -1,4 +1,4 @@
-﻿namespace Exercise_Shapes_Tree.Shapes.Lines
+﻿namespace Bnaya.Samples
 {
     public interface IDrawingChar
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Exercise_Shapes_Tree.Shapes.Lines
+namespace Bnaya.Samples
 {
     public class Line4Second : Line
     {

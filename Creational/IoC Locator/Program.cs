@@ -2,7 +2,7 @@
 using Autofac;
 using FakeItEasy;
 
-namespace IoC_Reduce_Parameters
+namespace Bnaya.Samples
 {
     class Program
     {

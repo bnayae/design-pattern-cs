@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BuilderSample
+namespace Bnaya.Samples
 {
     public interface IBuilderABC: IBuilder
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Autofac;
 
-namespace IoC_Reduce_Parameters
+namespace Bnaya.Samples
 {
     public static class Extensions
     {

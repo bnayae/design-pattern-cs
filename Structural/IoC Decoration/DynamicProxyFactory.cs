@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IoC_Decoration
+namespace Bnaya.Samples
 {
     public class DynamicProxyFactory<T> : DispatchProxy
     {

@@ -1,8 +1,7 @@
 ﻿using System;
 using Autofac;
-using IoC_Sample;
 
-namespace IocHosting
+namespace Bnaya.Samples
 {
     class Program
     {

@@ -2,7 +2,7 @@
 using Autofac;
 using Autofac.Features.AttributeFilters;
 
-namespace IoC_Sample
+namespace Bnaya.Samples
 {
     class Program
     {

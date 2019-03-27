@@ -2,7 +2,7 @@
 using Autofac;
 using FakeItEasy;
 
-namespace IoC_Decoration
+namespace Bnaya.Samples
 {
     class Program
     {

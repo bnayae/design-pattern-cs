@@ -1,6 +1,6 @@
 ﻿using SixLabors.ImageSharp.Processing;
 
-namespace IoC_Exercise
+namespace Bnaya.Samples
 {
     public interface IGrayscaleSetting
     {

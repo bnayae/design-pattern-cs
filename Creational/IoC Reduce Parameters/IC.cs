@@ -1,4 +1,4 @@
-﻿namespace IoC_Reduce_Parameters
+﻿namespace Bnaya.Samples
 {
     public class IC
     {

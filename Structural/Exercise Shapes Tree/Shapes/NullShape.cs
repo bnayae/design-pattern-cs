@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Exercise_Shapes_Tree.Shapes.Lines
+namespace Bnaya.Samples
 {
     // null object pattern
     public class NullShape : IShape

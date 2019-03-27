@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace IoC_Reduce_Parameters
+namespace Bnaya.Samples
 {
     public interface IABC
     {

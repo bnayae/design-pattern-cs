@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Text;
 using Autofac.Features.AttributeFilters;
 
-namespace Exercise_Shapes_Tree.Shapes.Lines
+namespace Bnaya.Samples
 {
-    public class Nose : IShape
+    public class SlideNose : IShape
     {
         private readonly IShape _dot;
         private readonly IShape _line;
 
-        public Nose(
+        public SlideNose(
             [KeyFilter(Keys.DotPrime)]IShape dot,
             [KeyFilter(Keys.Line2Prime)]IShape line)
         {

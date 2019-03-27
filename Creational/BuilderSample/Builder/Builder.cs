@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BuilderSample
+namespace Bnaya.Samples
 {
     public class Builder : IBuilderABC, IBuilderAB, IBuilderBC, IBuilderAC, 
             IBuilderA, IBuilderB, IBuilderC

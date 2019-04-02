@@ -47,9 +47,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC Reduce Parameters", "Cr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC Locator", "Creational\IoC Locator\IoC Locator.csproj", "{5821A67C-4776-4747-8333-F13ECAE6FFCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC Decoration", "Structural\IoC Decoration\IoC Decoration.csproj", "{6AEAA316-6455-48E3-BC07-BE0930D49E1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC Decoration", "Structural\IoC Decoration\IoC Decoration.csproj", "{6AEAA316-6455-48E3-BC07-BE0930D49E1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise Shapes Tree", "Structural\Exercise Shapes Tree\Exercise Shapes Tree.csproj", "{6C628726-04B9-4F89-BA30-ABA5078C200C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise Shapes Tree", "Structural\Exercise Shapes Tree\Exercise Shapes Tree.csproj", "{6C628726-04B9-4F89-BA30-ABA5078C200C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain of Responsibility", "Chain of Responsibility\Chain of Responsibility.csproj", "{163AF817-44C2-4930-9F41-6D46EC152D95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodTemplateSample", "MethodTemplateSample\MethodTemplateSample.csproj", "{DB5604DE-A98E-4240-9477-FD79CD51FEF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentSample Chain", "PaymentSAmple Chain\PaymentSample Chain.csproj", "{58CCAD41-CABC-4096-B560-CC9228593BD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -133,6 +139,18 @@ Global
 		{6C628726-04B9-4F89-BA30-ABA5078C200C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C628726-04B9-4F89-BA30-ABA5078C200C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C628726-04B9-4F89-BA30-ABA5078C200C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{163AF817-44C2-4930-9F41-6D46EC152D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{163AF817-44C2-4930-9F41-6D46EC152D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{163AF817-44C2-4930-9F41-6D46EC152D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{163AF817-44C2-4930-9F41-6D46EC152D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB5604DE-A98E-4240-9477-FD79CD51FEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB5604DE-A98E-4240-9477-FD79CD51FEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB5604DE-A98E-4240-9477-FD79CD51FEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB5604DE-A98E-4240-9477-FD79CD51FEF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58CCAD41-CABC-4096-B560-CC9228593BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58CCAD41-CABC-4096-B560-CC9228593BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58CCAD41-CABC-4096-B560-CC9228593BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58CCAD41-CABC-4096-B560-CC9228593BD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -158,6 +176,9 @@ Global
 		{5821A67C-4776-4747-8333-F13ECAE6FFCD} = {1E11668A-B96C-46C4-B5A4-5E6A09B2D95D}
 		{6AEAA316-6455-48E3-BC07-BE0930D49E1A} = {0726A3BC-365E-4745-A6A7-A7B84B7288BC}
 		{6C628726-04B9-4F89-BA30-ABA5078C200C} = {0726A3BC-365E-4745-A6A7-A7B84B7288BC}
+		{163AF817-44C2-4930-9F41-6D46EC152D95} = {4D7B4AAB-49D2-4739-BD65-0AF521812CE4}
+		{DB5604DE-A98E-4240-9477-FD79CD51FEF5} = {4D7B4AAB-49D2-4739-BD65-0AF521812CE4}
+		{58CCAD41-CABC-4096-B560-CC9228593BD5} = {4D7B4AAB-49D2-4739-BD65-0AF521812CE4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9573CE47-B7B9-44D9-982A-49D8C61BD0ED}

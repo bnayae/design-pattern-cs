@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq.Expressions;
 
 namespace Bnaya.Samples
 {
@@ -6,6 +7,8 @@ namespace Bnaya.Samples
     {
         static void Main(string[] args)
         {
+            //Del((a, b) => DateTime.Now);
+            //Exp((a, b) => DateTime.Now);
             var initState = new HomeState();
             var context = new Context(initState);
             context.Move(new DateTime(2019, 1, 1, 7, 0, 0));
@@ -17,6 +20,15 @@ namespace Bnaya.Samples
 
             Console.ReadKey();
         }
+
+        private static void Exp(Expression<Func<int, string, DateTime>> data)
+        {
+        }
+
+        private static void Del(Func<int, string, DateTime> data)
+        {
+        }
+
     }
 }
 

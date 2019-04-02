@@ -19,7 +19,7 @@ namespace Bnaya.Samples
                 case DayOfWeek.Monday:
                 case DayOfWeek.Tuesday:
                 case DayOfWeek.Wednesday:
-                 case DayOfWeek.Thursday:
+                case DayOfWeek.Thursday:
                     {
                         IStateDelegator state = new WorkState();
                         state = state.Execute(context, now);

@@ -9,6 +9,10 @@ namespace Bnaya.Samples
         static void Main(string[] args)
         {
             var builder = new ContainerBuilder();
+
+            builder.RegisterDecorator<IShape>(
+                (c, p, inner) => new ShapeDecorator(inner));
+
             builder.RegisterType<DotPrime>()
                 .WithAttributeFiltering()
                 .Keyed<IShape>(Keys.DotPrime)
@@ -86,6 +90,7 @@ namespace Bnaya.Samples
 
             IShape shape = shapeBuilder.Create(Keys.Face)
                         .AddNext(Keys.FaceWink)
+                        //.AddNext(Keys.Rect4x2Prime)
                         .Build();
 
             var offseter = new Offseter(2, 2);
